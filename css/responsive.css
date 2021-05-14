@@ -1,0 +1,159 @@
+@media(min-width:1441px){
+    .chat-box{
+        width: 500px;
+        height: 600px;
+    }
+}
+
+@media(max-width:991px){
+    .home-section .home-text h2{
+        font-size: 60px;
+        letter-spacing: 2.5px;
+    }
+    .service-section .service-item{
+        float: 0 0 50%;
+        max-width: 50%
+    }
+}
+
+@media(max-width:767px){
+
+    /*-------------------------- home section ------------------------------- */
+    .about-section .about-img,
+    .about-section .about-info,
+    .about-section .skills .skill-item,
+    .home-section .home-text, 
+    .home-section .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home-section .home-text{
+        order:2;
+    }
+    .home-section .home-text{
+        text-align: center;
+    }
+    .home-section .home-text .name-text{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .home-section .home-text h2{
+        font-size: 60px;
+        letter-spacing: 2.5px;
+    }
+    .home-section .full-screen{
+        padding: 100px 0;
+    }
+    .home-section .home-img .img-box{
+        margin-bottom: 40px;
+        max-width: 350px;
+    }
+    /*-------------------------- about section ------------------------------- */
+    .about-section .about-img{
+        padding-bottom: 30px;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd){
+        padding-right: 15px;
+        padding-left: 75px;
+        text-align: left;
+    }
+    .about-section .timeline .timeline-item:nth-child(even){
+        padding-left: 75px;
+    }
+    .about-section .timeline::before{
+        left: 35px;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) .icon{
+        right: auto;
+        left: -60px;
+    }
+    .about-section .timeline .timeline-item:nth-child(even) .icon{
+        right: auto;
+        left: -60px;
+    }
+    .about-section .timeline .timeline-item{
+        margin-bottom: 40px;
+    }
+    .about-section .timeline .timeline-item:last-child{
+        margin-bottom: 0;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) .timeline-item-inner::before{
+        left: -30px;
+        right: auto;
+    }
+    .contact-section .contact-item{
+        flex: 0 0 100%;
+        max-width: 40%;
+    }
+    .contact-section h1{
+        font-size: 50px;
+    }
+    .effect-3{
+        margin-left: -60px;
+    }
+    .effect-4{
+        left: 15%;
+    }
+    .effect-5{
+        right: 4%;
+    }
+} 
+
+@media(max-width: 574px){
+    .contact-section .contact-item,
+    .service-section .service-item{
+        flex: 0 0 100%;
+        max-width: 85%;
+    }
+    .home-section .home-img .img-box{
+        max-width: 260px;
+    }
+    .home-section .home-text h2{
+        font-size: 45px;
+        height: 50px;
+        line-height: 45px;
+        letter-spacing: 2px;
+    }
+    .contact-section h1{
+        font-size: 50px;
+    }
+    
+}
+@media(max-width: 450px){
+    .chat-box-icon{
+        width: 60px;
+        height: 60px;
+        
+    }
+    .chat-box-icon i{
+        line-height: 60px;
+    }
+    .chat-box{
+        width: 100%;
+        height: 100%;
+        right: 0;
+        bottom: 0;
+        border-radius: 0;
+    }
+    .chat-box-head{
+        height: 100px;
+    }
+    .chat-box-head .row{
+        min-height: 100px;
+    }
+    .botui-app-container{
+        width: 100% !important;
+        max-height: calc(100% - 100px);
+    }
+}
+@media(max-width: 330px){
+    .home-section .home-text h2{
+        font-size: 40px;
+        height: 50px;
+        line-height: 45px;
+        letter-spacing: 2px;
+    }
+}
