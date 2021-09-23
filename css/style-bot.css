@@ -63,7 +63,7 @@ body {
 .chat-box .row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
     min-height: 75px;
 }
